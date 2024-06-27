@@ -10,8 +10,10 @@ body {
   height: 100%;
 }
 
-.main {
-  width: 300px;
+#box {
   height: 300px;
+  width: 300px;
   background-color: red;
+  padding: 20px;
+  margin: 20px;
 }
