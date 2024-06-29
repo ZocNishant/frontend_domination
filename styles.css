@@ -10,10 +10,60 @@ body {
   height: 100%;
 }
 
-#box {
-  height: 300px;
-  width: 300px;
+/* main axis is the direction of element. -> Justify Content */
+
+/* #box {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#one {
+  width: 100px;
+  height: 100px;
   background-color: red;
-  padding: 20px;
-  margin: 20px;
+}
+
+#two {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+#three {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+} */
+
+/* .main {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-columns: 200px 200px;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.elem {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  border: 3px solid black;
+} */
+
+#nav {
+  background-color: red;
+  display: grid;
+  grid-template-columns: 60% 10% 10% 10% 10%;
+  grid-template-rows: 50px;
+  justify-items: center;
+  align-items: center;
 }
