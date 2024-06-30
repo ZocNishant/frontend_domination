@@ -6,18 +6,170 @@
 
 html,
 body {
+  width: 100%;
+  height: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.main {
   height: 100%;
   width: 100%;
+  background-color: #f8f8f8;
+  position: relative;
+  padding-top: 1px;
 }
 
-.parent {
-  height: 30vh;
-  width: 30vw;
-  background-color: cyan;
+.navbar {
+  height: 12vh;
+  width: 100%;
+  margin-top: 40px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.child {
+.navbar h1 {
+  height: 100%;
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "monument", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+.navbar h2 {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid black;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.navbar h2:nth-last-child(2) {
+  width: 29%;
+}
+
+.navbar h2:nth-last-child(1) {
+  width: 10%;
+}
+
+.center {
+  height: 90%;
+  width: 100%;
+  padding: 4vw;
+  position: relative;
+}
+
+.videoContent {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.videoContent video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+.overlay {
   height: 50%;
-  width: 50%;
-  background-color: navy;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 3vw;
+  color: white;
+}
+
+.overOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+.overOne h1 {
+  font-family: "monument", sans-serif;
+  font-size: 3.6vw;
+  font-weight: 600;
+  /* mix-blend-mode: difference; */
+}
+
+.overOne h2 {
+  font-size: 1vw;
+  padding: 2vw 2.5vw;
+  border-radius: 50%;
+  border: 1px solid white;
+  border-bottom: 3px solid white;
+}
+
+.overTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid white;
+  padding: 1vw 0;
+}
+
+.overTwo h4 {
+  font-size: 1.3vw;
+  font-weight: 500;
+}
+
+.overTwo img {
+  height: 3vw;
+}
+
+.scroll {
+  height: 40vh;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  height: 94%;
+  width: 100%;
+  display: inline-block;
+  padding: 2vw;
+  animation-name: animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.scroll img {
+  /* display: none; */
+  height: 100%;
+  border-radius: 50%;
+  width: 15%;
+  object-fit: cover;
+  object-position: top;
+  margin: 2vw;
+}
+
+@keyframes animation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
