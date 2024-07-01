@@ -17,7 +17,13 @@
 
 // window
 // type
+
+// primitive and reference data types
+// reference {} [] ()
+
 //conditionals
+// if(){}
+
 // loops
 // functions
 // arrays
