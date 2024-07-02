@@ -22,14 +22,71 @@
 // reference {} [] ()
 
 //conditionals
-// if(){}
+// let age = 24;
+
+// if (age > 24) {
+//   console.log("Pasa Thulo Vayexa");
+// }
+
+// truthy and falsy values
+// false, NaN, 0, "", ', document.all
+
+// if..else
+// let a = 22;
+
+// if (a > 22) {
+//   console.log("pasa");
+// } else {
+//   console.log("Another Pasa");
+// }
+
+// else..if
+
+// if (a > 22) {
+//   console.log("Pasa");
+// } else if (age < 22) {
+//   console.log("Pasa");
+// } else {
+//   console.log("Pasa Square.");
+// }
 
 // loops
+// for , while, foreach
+
+// for(start; end; change){}
+// for (let num = 5; num <= 50; num++) {
+//   console.log(`Pasa, ${num}.`);
+// }
+
+// while loop
+
+// start;
+
+// while(end){
+//     change;
+// }
+
+// let num = 10;
+
+// while (num <= 100) {
+//   console.log(`${num}`);
+//   num++;
+// }
+
+// foreach
+
 // functions
+
 // arrays
+
 // objects
+
 // prototypes
+
 // prototypal inheritance
+
 // asynchronous
+
 // es6 climax
+
 // questions
