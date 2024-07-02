@@ -77,6 +77,8 @@
 
 // functions
 
+const pasa = () => {};
+
 // arrays
 
 // objects
