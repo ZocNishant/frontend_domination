@@ -77,7 +77,39 @@
 
 // functions
 
-const pasa = () => {};
+// const pasa = () => {};
+
+// es5 -> fucntion statements, function expression and anonymous fucntion
+// es6 -> basic fat arrow, fat arrow with one parameter and fat arrow with implicit return
+
+// function abcd(~param){}
+
+// function statement
+// function fnName(){}
+
+// function expression
+// var abac = function (){}
+
+// anonymous function
+// function () {}
+
+// fat arrow
+// const abce = () => {}
+
+// fat arrow with one parameter
+// const abce = (param) => {}
+
+// fat arrow with implicit return
+// const abce = () => literally anything written here will be returned
+
+// return
+function pasa() {
+  return 12;
+}
+
+console.log(pasa());
+
+// undefined, not defined and null
 
 // arrays
 
