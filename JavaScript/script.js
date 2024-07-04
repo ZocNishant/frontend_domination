@@ -103,18 +103,43 @@
 // const abce = () => literally anything written here will be returned
 
 // return
-function pasa() {
-  return 12;
-}
+// function pasa() {
+//   return 12;
+// }
 
-console.log(pasa());
+// console.log(pasa());
 
 // undefined, not defined and null
 
+// let a; undefined
+// console.log(name) // not defined cuz "name" is not defined anywhere
+// null is received ehrn something is not found
+
 // arrays
+// let myName = ["Nishant", "Pasa", "Topre", "Shante", "Gilu"];
+// document.writeln(myName[0]);
+
+// loop with array
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// arr.forEach(function (pasa) {
+//   console.log(pasa);
+// });
 
 // objects
 
+// let obj = {
+//   name: "Nishant",
+//   age: 22,
+//   pasa: true,
+// };
+
+// console.log(obj.name);
+
+// synchronous and asynchronous JS
+
+// this call apply bind
 // prototypes
 
 // prototypal inheritance
