@@ -140,6 +140,54 @@
 // synchronous and asynchronous JS
 
 // this call apply bind
+
+// global
+// console.log(this);
+
+// // funtion
+// function pasa() {
+//   console.log(this);
+// }
+
+// pasa();
+
+//method
+// let obj = {
+//   name: function () {
+//     console.log(this);
+//   },
+//   age: 25,
+//   email: "pasa@gmail.com",
+// };
+
+// obj.name();
+
+// function inside method (es5)
+// let obj2 = {
+//   syname: function () {
+//     function pasaji() {
+//       console.log(this);
+//     }
+//     pasaji();
+//   },
+// };
+
+// obj2.syname();
+
+// function inside method (es6)
+
+// const obj3 = {
+//   synaam: function () {
+//     const paaa = () => {
+//       console.log(this);
+//     };
+//     paaa();
+//   },
+//   age: 26,
+// };
+
+// obj3.synaam();
+
 // prototypes
 
 // prototypal inheritance
