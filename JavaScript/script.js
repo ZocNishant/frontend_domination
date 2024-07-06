@@ -188,9 +188,128 @@
 
 // obj3.synaam();
 
-// prototypes
+//  Constructor Function
 
+// function add() {
+//   console.log(this);
+// }
+
+// new add();
+
+// Event Listener
+
+// document.querySelector("button").addEventListener("click", () => {
+//   console.log(this);
+// });
+
+// call, apply and bind
+
+// function passsa(a, b, c) {
+//   console.log(this);
+// }
+
+// const nepal = {
+//   name: "Nepal",
+//   isHere: "Asia",
+//   doYouLive: true,
+// };
+
+// passsa.call(nepal, 1, 2, 3); // call
+// passsa.apply(nepal, [4, 5, 6]); // apply
+
+// const me = {
+//   name: "Nishant",
+//   age: 26,
+// };
+
+// function defg() {
+//   console.log(this);
+// }
+
+// const paxiChalauni = defg.bind(me);
+
+// paxiChalauni();
+
+// Prototypal Inheritance
+
+// function makeHuman(name, age) {
+//   this.name = name;
+//   this.age = age;
+// }
+
+// const humanOne = new makeHuman("Nishant", "Joshi");
+
+// function myFullName(firstName, lastName) {
+//   this.firstName = firstName;
+//   this.lastName = lastName;
+// }
+
+// const fullName = new myFullName("Nishant", "Joshi");
+
+// prototypes
 // prototypal inheritance
+
+// function mySathiHaru(fname, lname) {
+//   this.fname = fname;
+//   this.lname = lname;
+// }
+
+// mySathiHaru.prototype.printName = function () {
+//   console.log(this.name);
+// };
+
+// const sathi1 = new mySathiHaru("Pasa", "Pandey");
+// const sathi2 = new mySathiHaru("Dude", "Sup");
+// const sathi3 = new mySathiHaru("Yoo!", "Bitch.");
+
+// closures
+// function counter() {
+//   let count = 0;
+//   return function () {
+//     count++;
+//     console.log(count);
+//   };
+// }
+
+// Event Delegation
+// let parent = document.querySelector(".parent");
+
+// parent.addEventListener("click", function (event) {
+//   console.log(event.clientX, event.clientY, event.target);
+// });
+
+// Higher Order Functions
+
+// function abcd(param) {}
+
+// abcd(function () {});
+
+// try ..... catch
+
+// function divide(a, b) {
+//   try {
+//     if (b == 0) {
+//       throw Error("Something is wrong.");
+//     }
+//     console.log(a / b);
+//   } catch (err) {
+//     console.log(err);
+//   }
+// }
+
+// divide(12, 0);
+
+// Custom Events
+
+// HOW
+
+const evt = new Event("pasa");
+
+document.querySelector("#play").addEventListener("pasa", function () {
+  console.log("pasa event vayo.");
+});
+
+document.querySelector("#play").dispatchEvent(evt);
 
 // asynchronous
 
