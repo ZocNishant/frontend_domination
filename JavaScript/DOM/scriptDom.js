@@ -51,8 +51,18 @@
 
 // Even Object
 
-document
-  .querySelector("body")
-  .addEventListener("mousemove", function (details) {
-    console.log(details.clientX, details.clientY);
-  });
+// document
+//   .querySelector("body")
+//   .addEventListener("mousemove", function (details) {
+//     console.log(details.clientX, details.clientY);
+//   });
+
+// ----------------------------- Practice Session -----------------
+
+// 1. Create a HTML page with a button. When the button is clicked, change the text of a paragraph element.
+
+// const btn = document.querySelector("button");
+// btn.addEventListener("click", function () {
+//   document.querySelector("p").textContent =
+//     "lorem pasa k xa kaso xa kna xa ka bata xa xanata xa.";
+// });
