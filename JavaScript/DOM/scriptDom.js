@@ -69,16 +69,16 @@
 
 // 2. Create a page with two images and a button.
 
-const btn = document.querySelector("button");
+// const btn = document.querySelector("button");
 
-const img1 = document.querySelector(".img1");
+// const img1 = document.querySelector(".img1");
 
-const img2 = document.querySelector(".img2");
+// const img2 = document.querySelector(".img2");
 
-btn.addEventListener("click", function () {
-  const img1Src = img1.src;
-  const img2Src = img2.src;
+// btn.addEventListener("click", function () {
+//   const img1Src = img1.src;
+//   const img2Src = img2.src;
 
-  img1.src = img2Src;
-  img2.src = img1Src;
-});
+//   img1.src = img2Src;
+//   img2.src = img1Src;
+// });
