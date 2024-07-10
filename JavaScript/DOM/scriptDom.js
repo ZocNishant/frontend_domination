@@ -82,3 +82,9 @@
 //   img1.src = img2Src;
 //   img2.src = img1Src;
 // });
+
+// QUE 3
+
+const inputField = document.querySelector(".input");
+
+const button = document.querySelector("button");
