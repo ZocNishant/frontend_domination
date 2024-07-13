@@ -85,10 +85,43 @@
 
 // QUE 3
 
-const inputField = document.querySelector(".input");
+// const faram = document.querySelector("#faram");
 
-const button = document.querySelector("button");
+// const inps = document.querySelectorAll("input");
 
-// New Que
+// const button = document.querySelector("button");
 
-// Another
+// faram.addEventListener("submit", function (event) {
+//   event.preventDefault();
+
+//   for (let i = 0; i <= inps.length; i++) {
+//     if (inps[i].value.trim() === "") {
+//       document.querySelector("h4").textContent = "Pasa";
+//       break;
+//     }
+//   }
+// });
+
+// Que 4
+
+const inp = document.querySelector("input");
+
+const addItem = document.querySelector(".add");
+const removeItem = document.querySelector(".remove");
+
+const unList = document.querySelector("ul");
+let li;
+
+addItem.addEventListener("click", function () {
+  if (inp.value.trim === "") {
+  } else {
+    li = document.createElement("li");
+    li.textContent = inp.value;
+    unList.appendChild(li);
+    inp.value = "";
+  }
+});
+
+removeItem.addEventListener("click", function () {
+  unList.removeChild(li);
+});
