@@ -104,24 +104,45 @@
 
 // Que 4
 
-const inp = document.querySelector("input");
+// const inp = document.querySelector("input");
 
-const addItem = document.querySelector(".add");
-const removeItem = document.querySelector(".remove");
+// const addItem = document.querySelector(".add");
+// const removeItem = document.querySelector(".remove");
 
-const unList = document.querySelector("ul");
-let li;
+// const unList = document.querySelector("ul");
+// let li;
 
-addItem.addEventListener("click", function () {
-  if (inp.value.trim === "") {
-  } else {
-    li = document.createElement("li");
-    li.textContent = inp.value;
-    unList.appendChild(li);
-    inp.value = "";
-  }
+// addItem.addEventListener("click", function () {
+//   if (inp.value.trim === "") {
+//   } else {
+//     li = document.createElement("li");
+//     li.textContent = inp.value;
+//     unList.appendChild(li);
+//     inp.value = "";
+//   }
+// });
+
+// removeItem.addEventListener("click", function () {
+//   unList.removeChild(li);
+// });
+
+// Que 6
+
+const start = document.querySelector("#start");
+const stop = document.querySelector("#stop");
+const h3 = document.querySelector("h3");
+
+let int;
+
+start.addEventListener("click", function () {
+  let count = 0;
+
+  int = setInterval(function () {
+    h3.textContent = count;
+    count++;
+  }, 1000);
 });
 
-removeItem.addEventListener("click", function () {
-  unList.removeChild(li);
+stop.addEventListener("click", function () {
+  clearInterval(int);
 });
