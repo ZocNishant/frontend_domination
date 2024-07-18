@@ -150,3 +150,9 @@
 // que 7
 
 // new one
+
+function name(name) {
+  console.log(`${name}`);
+}
+
+name("Nishant");
