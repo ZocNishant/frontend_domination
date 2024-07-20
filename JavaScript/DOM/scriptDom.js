@@ -126,7 +126,7 @@
 //   unList.removeChild(li);
 // });
 
-// Que 6
+// Que 5
 
 // const start = document.querySelector("#start");
 // const stop = document.querySelector("#stop");
@@ -147,12 +147,102 @@
 //   clearInterval(int);
 // });
 
-// que 7
+// que 6
 
-// new one
+// let home = document.querySelector("#home");
+// let about = document.querySelector("#about");
+// let contact = document.querySelector("#contact");
 
-function name(name) {
-  console.log(`${name}`);
-}
+// let homeContent = document.querySelector(".homeContent");
+// let aboutContent = document.querySelector(".aboutContent");
+// let contactContent = document.querySelector(".contactContent");
 
-name("Nishant");
+// home.addEventListener("click", function () {
+//   removeText();
+//   homeContent.style.display = "block";
+//   homeContent.style.width = "70%";
+// });
+
+// about.addEventListener("click", function () {
+//   removeText();
+//   aboutContent.style.display = "block";
+//   aboutContent.style.width = "70%";
+// });
+
+// contact.addEventListener("click", function () {
+//   removeText();
+//   contactContent.style.display = "block";
+//   contactContent.style.width = "70%";
+// });
+
+// function removeText() {
+//   document.querySelectorAll("h3").forEach(function (h3) {
+//     h3.style.display = "none";
+//   });
+// }
+
+// Que 7
+
+// let progress = document.querySelector(".progress");
+
+// let count = 0;
+// let int = setInterval(function () {
+//   if (count === 100) {
+//     clearInterval(int);
+//   }
+//   count++;
+//   progress.style.width = count + "%";
+// }, 1000);
+
+// Que 8
+
+// let input = document.querySelector("input");
+
+// let data = [
+//   {
+//     name: "Anne",
+//     src: "https://images.unsplash.com/photo-1599577180705-503586945e57?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+//   },
+//   {
+//     name: "Jane",
+//     src: "https://plus.unsplash.com/premium_photo-1674069719655-7289402d71e9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+//   },
+//   {
+//     name: "Devendar",
+//     src: "https://images.unsplash.com/photo-1547701787-1ad8f348080a?q=80&w=1781&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+//   },
+//   {
+//     name: "Melani",
+//     src: "https://images.unsplash.com/photo-1660118235438-5cfe4d6a0e28?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+//   },
+// ];
+
+// let person = "";
+
+// data.forEach(function (element) {
+//   person += `
+//         <div class="person">
+//           <img class="img" src="${element.src}" alt="" />
+//           <h4>${element.name}</h4>
+//         </div>`;
+// });
+
+// document.querySelector(".people").innerHTML = person;
+
+// input.addEventListener("input", function () {
+//   let matching = data.filter(function (e) {
+//     return e.name, startsWith(input.value);
+//   });
+
+//   let newusers = "";
+
+//   matching.forEach(function (element) {
+//     newusers += `
+//           <div class="person">
+//             <img class="img" src="${element.src}" alt="" />
+//             <h4>${element.name}</h4>
+//           </div>`;
+//   });
+
+//   document.querySelector(".people").innerHTML = newusers;
+// });
