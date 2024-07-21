@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  /* color: white; */
 }
 
 html,
@@ -84,7 +84,7 @@ body {
   text-align: center;
 } */
 
-.page1 {
+/* .page1 {
   height: 100%;
   width: 100%;
   background-color: antiquewhite;
@@ -116,4 +116,53 @@ body {
   width: 200px;
   background: radial-gradient(lightblue, royalblue);
   border-radius: 50%;
+} */
+
+/* .page1 {
+  height: 100%;
+  width: 100%;
+  background-color: royalblue;
+}
+
+.page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rebeccapurple;
+}
+
+.page2 img {
+  height: 100%;
+  width: 20%;
+  object-fit: cover;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.page3 {
+  height: 100%;
+  width: 100%;
+  background-color: navy;
+} */
+
+.page1 {
+  height: 100vh;
+  /* width: 100vh; */
+  background-color: aquamarine;
+}
+.page2 {
+  height: 100vh;
+  /* width: 100vh; */
+  background-color: rgb(19, 52, 41);
+}
+
+.page2 .imageDiv {
+  height: 100%;
+  width: 100%;
+}
+
+.page3 {
+  height: 100vh;
+  /* width: 100vh; */
+  background-color: rgb(129, 135, 133);
 }
